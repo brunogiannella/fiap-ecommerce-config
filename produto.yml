@@ -15,6 +15,11 @@ spring:
             probability: 1.0
     zipkin:
         base-url: http://localhost:9411
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
 
 logging:
     level:
@@ -26,3 +31,7 @@ eureka:
   client:
     serviceurl:
       defaultzone: http://localhost:8761/eureka/
+      
+queue:
+  order:
+    name: PEDIDOS
