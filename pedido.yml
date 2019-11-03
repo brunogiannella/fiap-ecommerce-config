@@ -17,7 +17,7 @@ spring:
         base-url: http://localhost:9411
     rabbitmq:
       host: buck.rmq.cloudamqp.com
-      port: 5672
+      port: 1883
       username: bkufqxgt
       password: 97ZXwk6hhRiOyE3S84MGf7aKPU0jVRCw
  
