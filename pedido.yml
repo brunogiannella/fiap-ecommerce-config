@@ -16,10 +16,10 @@ spring:
     zipkin:
         base-url: http://localhost:9411
     rabbitmq:
-      host: buck-01.rmq.cloudamqp.com
+      host: localhost
       port: 5672
-      username: bkufqxgt
-      password: 97ZXwk6hhRiOyE3S84MGf7aKPU0jVRCw
+      username: guest
+      password: guest
  
 logging:
     level:
