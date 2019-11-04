@@ -1,9 +1,9 @@
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://fiapcommerce.mysql.dbaas.com.br:3306/fiapcommerce?createDatabaseIfNotExist=true
-        password: abc123456   
-        username: fiapcommerce
+        url: jdbc:mysql://localhost:3306/fiapcommerce?createDatabaseIfNotExist=true
+        password: root   
+        username: root
     jpa:
         hibernate:
             ddl-auto: update
